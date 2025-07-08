@@ -1,10 +1,4 @@
 /* Enhanced Dark Magic Cyber Security Styles */
-html, body {
-    height: 100%;
-    width: 100%;
-    background-color: #000;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -555,8 +549,7 @@ body {
 .main-content {
     position: relative;
     z-index: 10;
-    min-height: calc(100vh - 80px); /* Ensure it takes full height below navbar */
-    background: #000; /* Ensure consistent black background */
+    margin-top: 80px;
 }
 
 /* Hero Section */
@@ -1318,12 +1311,7 @@ body {
 /* Write-Ups Section */
 .writeups-section {
     padding: 0 2rem 5rem;
-    background: #000;
-}
-
-.htb-writeups-section {
-    padding: 0 2rem 5rem;
-    background: #000;
+    background: transparent;
 }
 
 .writeups-grid {
