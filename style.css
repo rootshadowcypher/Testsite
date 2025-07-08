@@ -1569,5 +1569,92 @@ body {
     vertical-align: middle;
 }
 
+/* Contact Me Section */
+.contact-section {
+    padding: 5rem 2rem;
+    background: rgba(138, 43, 226, 0.05);
+    text-align: center;
+}
 
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
+.contact-description {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info a {
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.social-text-link {
+    color: #8A2BE2;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(138, 43, 226, 0.3);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.social-text-link:hover {
+    background-color: rgba(138, 43, 226, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.5);
+}
+
+@media (max-width: 480px) {
+    .social-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .social-icon img {
+        width: 25px;
+        height: 25px;
+    }
+}
