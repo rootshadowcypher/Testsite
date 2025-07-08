@@ -1,4 +1,10 @@
 /* Enhanced Dark Magic Cyber Security Styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
 * {
     margin: 0;
     padding: 0;
