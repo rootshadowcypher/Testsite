@@ -555,7 +555,6 @@ body {
 .main-content {
     position: relative;
     z-index: 10;
-    margin-top: 80px;
     min-height: calc(100vh - 80px); /* Ensure it takes full height below navbar */
     background: #000; /* Ensure consistent black background */
 }
