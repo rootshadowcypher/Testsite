@@ -1319,7 +1319,12 @@ body {
 /* Write-Ups Section */
 .writeups-section {
     padding: 0 2rem 5rem;
-    background: transparent;
+    background: #000;
+}
+
+.htb-writeups-section {
+    padding: 0 2rem 5rem;
+    background: #000;
 }
 
 .writeups-grid {
