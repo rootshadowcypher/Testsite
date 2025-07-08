@@ -536,4 +536,5 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.removeChild(ripple);
         });
     });
-});
+
+    });
